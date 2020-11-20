@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; width: 100%;}
+
+*{margin:0; padding: 0;}
+
+@keyframes ali {0%{bottom: -82%; left: 70%;} 50% {bottom: -2%; left: 70%;} 100%{bottom: -82%; left: 70%;}}
+
+body{background-color:tan; filter: sepia(80%)}
+
+div.flex{display: flex; flex-wrap: wrap; justify-content: center;}
+
+header{background-color: black; align-content: center; font-size: 150px; color: tan; text-align: center ;}
+
+div.lista{text-align: center; padding: 2%; width: 90%; display: flex; flex-flow: wrap; justify-content: center;}
+div.lista a{ margin: 1% ;padding: 1%; background: black; color:  tan; text-decoration: none; border-radius: 5px; }
+
+img{margin-top: 1%; margin-left: 1%; width: 45%; margin-right: 1%;}
+div.aliii{ margin-top: 1%; margin-left: 1%; margin-right: 1%; width: 45%;}
+img.alii {width: 100%;}
+
+div.box1{width: 50%;}
+
+.black{background-color: black; height: 1%; font-size: 5px; margin-top: 2%; margin-bottom: 2%; text-align: center;}
+.black1{background-color: black; height: 1%; font-size: 5px; margin-top: 2%; margin-bottom: 2%; text-align: center; width: 100%;}
+
+.bio{ margin-top: 2%;}
+.bio h1{padding: 2%; font-size: 30px; padding-left: 20%; text-align: center;}
+.tra h2{padding: 2%; font-size: 30px; margin-left: 20%; text-align: center;}
+
+.mom{width: 45%; margin-left: 1%; margin-top: 2%;}
+.mom h4{padding: 2%; text-align: center; font-size: 30px}
+.hom{width: 45%; margin-left: 1%; margin-bottom: 2%;}
+.hom h5{padding: 2%; text-align: center; font-size: 30px}
+p{padding: 1%;}
+
+.carrera{width: 45%;justify-content: center;}
+.imgali{width: 45%; justify-content: center;}
+.carrera h2{padding: 2%; font-size: 30px;text-align: center;}
+.ali{margin-right: 2%; margin-top: 3%;width: 100%;}
+.ali1{margin-right: 2%; margin-top: 3%;width: 100%;}
+
+div.aniali{width: 100%; overflow: hidden;}
+div.aniali img { animation-name: ali; animation-duration: 10s; animation-iteration-count: infinite; position: relative; width: 30%;}
+
+footer{width: 100%; float: right; background-color: black; color: tan; font-size: 15px; text-align: center; }
+
+div.lista a:hover{ background: black; color:  tan; text-decoration: none; border-radius: 5px; box-shadow: 4px 6px darkslategray; justify-content: center;}
+
+@media screen and (min-width:600px) and (max-width:959px){
+
+.mom{width: 100%;}
+.hom{width: 100%;}
+.carrera p {font-size: 20px;}
+.carrera{width: 100%;}
+.imgali{width: 90%; }
+}
+@media screen and (min-width:0px) and (max-width:599px){
+img{width: 100%;}
+div.box1{width: 100%;}
+.hom{width: 100%;}
+.mom{width: 100%;}
+.hom{width: 100%;}
+.carrera p {font-size: 15px;}
+.carrera{width: 100%;}
+.imgali{width: 90%; }
+}

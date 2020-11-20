@@ -1,0 +1,40 @@
+*{margin: 0; padding: 0px}
+
+@keyframes guante{  0%   {left:-150px; top:0px;} 62% {left:160px; top:250px;} 100% {left:160px; top:250px;}}
+@keyframes error{ 0% {background-position: 0px;} 60% {background-position: 0px;} 100% {background-position: -1500px;}}
+@keyframes ali{ 0% {right:-90%; top: -150px} 10%,90% {right: -60%; top: -150px} 100%{right: -100%; top: -150px}}
+
+body {background-image: url(https://images3.alphacoders.com/237/237229.jpg); background-attachment: fixed; background-size: 100% 100%; background-repeat: no-repeat;}
+
+
+ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: black; }
+li { float: left; } 
+li a { display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; font-family: 'Oswald', sans-serif;}
+
+
+div.envolvente {display: flex;}
+
+
+div.ani {width: 50%;}
+
+div.guante img{width: 10%; animation-name: guante; position:relative; animation-duration: 4s; animation-iteration-count: infinite; z-index: 1;animation-timing-function: linear; transform: rotate(120deg);}
+
+
+.error { background-image: url("../img/Error-steps.png"); width: 250px; height: 500px ;position: relative; background-repeat: no-repeat; margin-left: 100px; margin-right: 500px; animation-name: error; animation-duration: 4s; animation-iteration-count: infinite; animation-timing-function: steps(5);}
+
+
+div.txt {width: 50%; margin-top: 10%; margin-right: 0%;}
+
+
+div.texto p{ font-size: 300%; color: white; text-align: center; font-family: 'Oswald', sans-serif;}
+
+div.home a{ text-decoration: none; font-size: 300%; color: white; text-align: center; font-family: 'Oswald', sans-serif; }
+
+div.ali img{width: 40%; position: relative; animation-name: ali; animation-duration: 3s; animation-iteration-count: infinite;}
+
+
+footer { background-color: #F1F1F1; text-align: center; padding: 10px; position: fixed; bottom: 0px; width: 100%; font-family: 'Oswald', sans-serif;}
+
+div.home :hover {color: gray;}
+
+li a:hover { background-color: rgb(48, 47, 47); }
