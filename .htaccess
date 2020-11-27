@@ -1,1 +1,1 @@
-ErrorDocument 404 /web error 404/index.html
+ErrorDocument 404 / weberror404/ 404.html
